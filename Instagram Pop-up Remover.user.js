@@ -22,7 +22,7 @@
 
     setInterval(checkExist, 1000);
 
-    button.style = "position:fixed; top:0px; left:0px;";
+    button.style = "position:fixed; top:0px; left:0px; background-color: white; border: none; color: black; padding: 15px 30px; text-align: center; text-decoration: none; font-family: Tahoma, Geneva, sans-serif; display: inline-block; font-size: 24px; margin: 4px 2px; cursor: pointer;";
     button.innerHTML = "Click to remove!";
     button.onclick = function() {
         remove();
